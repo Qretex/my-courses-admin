@@ -1,0 +1,64 @@
+{
+  "kind": "collectionType",
+  "collectionName": "courses",
+  "info": {
+    "singularName": "course",
+    "pluralName": "courses",
+    "displayName": "Courses"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "required": true
+    },
+    "previewText": {
+      "type": "text"
+    },
+    "salary": {
+      "type": "string"
+    },
+    "previewImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "detailText": {
+      "type": "blocks"
+    },
+    "detailImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "teacher": {
+      "type": "string"
+    },
+    "timetable": {
+      "type": "string"
+    },
+    "time": {
+      "type": "string"
+    },
+    "willLearn": {
+      "type": "text"
+    },
+    "willGet": {
+      "type": "text"
+    },
+    "hours": {
+      "type": "string"
+    }
+  }
+}
