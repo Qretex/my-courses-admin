@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sourse_registrations",
+  "info": {
+    "singularName": "sourse-registration",
+    "pluralName": "sourse-registrations",
+    "displayName": "Сourse registration"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}
