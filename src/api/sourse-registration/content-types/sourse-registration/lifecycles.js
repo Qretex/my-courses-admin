@@ -8,7 +8,7 @@ module.exports = {
         .service("email")
         .send({
           from: process.env.EMAIL_USERNAME,
-          to: process.env.PERSONAL_EMAIL,
+          to: process.env.EMAIL_TO,
           subject: "Новая регистрация на курс",
           text: `${result.name}`,
         });
