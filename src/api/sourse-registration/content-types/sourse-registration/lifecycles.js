@@ -9,8 +9,11 @@ module.exports = {
         .send({
           from: process.env.EMAIL_USERNAME,
           to: process.env.EMAIL_TO,
-          subject: "Новая регистрация на курс",
-          text: `${result.name}`,
+          subject: `Новая запись на курс ${result.course}`,
+          text: `
+          Имя: ${result.name}
+          Телефон: ${result.phone}
+          Комментарий: ${result.comment}`,
         });
     } catch (error) {
       console.log(error);

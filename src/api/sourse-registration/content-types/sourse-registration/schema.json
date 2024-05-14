@@ -4,7 +4,8 @@
   "info": {
     "singularName": "sourse-registration",
     "pluralName": "sourse-registrations",
-    "displayName": "Сourse registration"
+    "displayName": "Сourse registration",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,6 +13,15 @@
   "pluginOptions": {},
   "attributes": {
     "name": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "comment": {
+      "type": "text"
+    },
+    "course": {
       "type": "string"
     }
   }

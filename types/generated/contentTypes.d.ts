@@ -836,12 +836,16 @@ export interface ApiSourseRegistrationSourseRegistration
     singularName: 'sourse-registration';
     pluralName: 'sourse-registrations';
     displayName: '\u0421ourse registration';
+    description: '';
   };
   options: {
     draftAndPublish: true;
   };
   attributes: {
     name: Attribute.String;
+    phone: Attribute.String;
+    comment: Attribute.Text;
+    course: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
