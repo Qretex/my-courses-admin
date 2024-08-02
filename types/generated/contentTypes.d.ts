@@ -803,9 +803,9 @@ export interface ApiCourseCourse extends Schema.CollectionType {
     slug: Attribute.UID & Attribute.Required;
     previewText: Attribute.Text;
     salary: Attribute.String;
-    previewImage: Attribute.Media;
+    previewImage: Attribute.Media<'images'>;
     detailText: Attribute.Blocks;
-    detailImage: Attribute.Media;
+    detailImage: Attribute.Media<'images'>;
     teacher: Attribute.String;
     timetable: Attribute.String;
     time: Attribute.String;

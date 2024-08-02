@@ -1,36 +1,36 @@
 {
-  "name": "q-courses-admin",
-  "private": true,
+  "name": "my-courses-admin",
   "version": "0.1.0",
+  "private": true,
   "description": "A Strapi application",
+  "license": "MIT",
+  "author": {
+    "name": "A Strapi developer"
+  },
   "scripts": {
-    "develop": "strapi develop",
-    "start": "strapi start",
     "build": "strapi build",
+    "dev": "strapi develop",
+    "start": "strapi start",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-cloud": "4.24.2",
-    "@strapi/plugin-i18n": "4.24.2",
-    "@strapi/plugin-users-permissions": "4.24.2",
-    "@strapi/provider-email-nodemailer": "^4.24.2",
-    "@strapi/strapi": "4.24.2",
-    "better-sqlite3": "8.6.0",
+    "@strapi/plugin-cloud": "4.25.6",
+    "@strapi/plugin-i18n": "4.25.6",
+    "@strapi/plugin-users-permissions": "4.25.6",
+    "@strapi/provider-email-nodemailer": "^4.25.6",
+    "@strapi/strapi": "4.25.6",
+    "pg": "8.8.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "5.3.4",
     "styled-components": "5.3.3"
   },
-  "author": {
-    "name": "A Strapi developer"
-  },
-  "strapi": {
-    "uuid": "a58e2ac8-1bfd-4f35-8304-1501da44f150"
-  },
   "engines": {
     "node": ">=18.0.0 <=20.x.x",
     "npm": ">=6.0.0"
   },
-  "license": "MIT"
+  "strapi": {
+    "uuid": "26b8f3d8-356c-46d0-bf23-c24eb7f480a3"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
